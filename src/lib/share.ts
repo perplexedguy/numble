@@ -20,9 +20,9 @@ export const generateEmojiGrid = (guesses: string[]) => {
             case 'correct':
               return '🟦'
             case 'present':
-              return '🟧'
+              return '⬜️'
             default:
-              return '⬜'
+              return '⬛️'
           }
         })
         .join('')
