@@ -1,5 +1,5 @@
 export const WORDS = [
-  'songs', 'reply', 'album', 'spill', 'scarf',
+  'reply', 'songs', 'album', 'spill', 'scarf',
   'loona', 'emoji', 'swift', 'kanye', 'tweet',
   'peaks', 'lamar', 'radio', 'nicki', 'hyped',
   'first', 'rehab', 'kings', 'serve', 'toxic',
