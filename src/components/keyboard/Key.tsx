@@ -20,9 +20,9 @@ export const Key = ({
 }: Props) => {
   const classes = classnames('flex border-solid border-2 items-center justify-center rounded mx-0.5 text-xs font-bold cursor-pointer select-none dark:text-white', {
       'bg-white border-slate-200 hover:bg-slate-200 dark:bg-black dark:border-gray-800': !status,
-      'bg-gray-800 border-gray-800 text-white': status === 'absent',
-      'bg-blue-500 border-blue-500 hover:bg-blue-600 text-white': status === 'correct',
-      'bg-slate-300 border-slate-300 hover:bg-slate-400 text-white': status === 'present',
+      'bg-gray-500 border-gray-500 text-white': status === 'absent',
+      'bg-green-500 border-green-500 hover:bg-green-600 text-white': status === 'correct',
+      'bg-yellow-500 border-yellow-500 hover:bg-yellow-600 text-white': status === 'present',
     }
   )
 
